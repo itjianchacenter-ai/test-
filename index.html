@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>อาหารเหนือป้าย่า · รายรับรายจ่าย</title>
+  <meta name="description" content="ระบบจัดการรายรับ รายจ่าย และกำไรของร้านอาหารเหนือป้าย่า ใช้งานได้แม้ออฟไลน์" />
+  <meta name="theme-color" content="#ef8a1e" />
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="อาหารเหนือป้าย่า" />
+
+  <!-- ฟอนต์ไทย (มี fallback เป็นฟอนต์ระบบเมื่อออฟไลน์) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <noscript>กรุณาเปิดใช้งาน JavaScript เพื่อใช้แอปนี้</noscript>
+  <script src="app.js" defer></script>
+</body>
+</html>

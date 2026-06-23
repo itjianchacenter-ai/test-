@@ -1,0 +1,18 @@
+{
+  "name": "อาหารเหนือป้าย่า — รายรับรายจ่าย",
+  "short_name": "อาหารเหนือป้าย่า",
+  "description": "ระบบจัดการรายรับ รายจ่าย และกำไรของร้านอาหารเหนือป้าย่า ใช้งานได้แม้ออฟไลน์",
+  "lang": "th",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf6ee",
+  "theme_color": "#ef8a1e",
+  "categories": ["business", "finance", "food"],
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

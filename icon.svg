@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="ร้านอาหารของฉัน">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <!-- plate -->
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#ffffff" stroke-width="18" opacity="0.55"/>
+  <!-- fork -->
+  <g fill="#ffffff">
+    <rect x="120" y="120" width="13" height="80" rx="6"/>
+    <rect x="142" y="120" width="13" height="80" rx="6"/>
+    <rect x="164" y="120" width="13" height="80" rx="6"/>
+    <rect x="135" y="190" width="27" height="14" rx="7"/>
+    <rect x="142" y="200" width="13" height="190" rx="6"/>
+    <!-- knife -->
+    <path d="M386 120c22 0 30 70 14 120-6 18-20 24-20 24v126a8 8 0 0 1-16 0V120z"/>
+  </g>
+  <!-- baht symbol -->
+  <text x="256" y="312" font-family="'Helvetica Neue',Arial,sans-serif" font-size="170" font-weight="700" fill="#ffffff" text-anchor="middle">฿</text>
+</svg>
