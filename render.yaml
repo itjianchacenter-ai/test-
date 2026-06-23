@@ -1,0 +1,13 @@
+# Render Blueprint — deploys this folder as a free static site at paya.onrender.com
+# Docs: https://render.com/docs/blueprint-spec
+services:
+  - name: paya
+    type: web
+    runtime: static
+    staticPublishPath: ./
+    buildCommand: "echo no build needed"
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /*
+        name: X-Robots-Tag
+        value: "noindex, nofollow"
